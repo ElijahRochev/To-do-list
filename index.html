@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="shortcut icon" href="business-to-do-list.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <h2>Task list</h2>
+            <div class="showTask">
+                <label for="show_task" class="formHeader">Show completed tasks</label>
+                <input type="checkbox" name="show_done_task" onclick="displayTaskList()">
+            </div>
+        </header>
+        <main>
+        <div id="task_list" class="toDoList"></div>
+    
+        <div class="form">
+            
+        <form method="POST" id="form" onsubmit="return retrieveFormValue()">
+            <input type="text" id="nameInput" name="nameInput" placeholder="Name task">
+            <input type="text" id="descriptionInput" name="descriptionInput" placeholder="Description of task">
+            <div class="dateButton">
+                <input type="text" id="dateInput" name="dateInput" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" onblur="(this.type='text')">
+                <button type="submit" id="button" >Submit</button>
+            </div>
+        </form>
+        
+        </div>
+        </main>
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+.task{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(245,245,245);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 46px;
+}
+.status_date{
+    display: flex;
+}
+.paragrath{
+    margin: 0px 0px 0px 0px;
+}
+.color_text{
+    color: rgb(202, 202, 202);
+}
+.done_checkbox{
+    color: gray;
+    text-decoration: line-through;
+}
+.timeOver{
+    color: red;
+}
+.done_task{
+    display: none;
+}
+.buttonDel{
+    width: 25px;
+}
+.showTaskList .done_task{
+    display: block;
+}
+body{
+    color: rgb(22,21,31);
+    background-color: 	rgb(239,238,245);
+    margin-left: 550px;
+    margin-right: 550px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.background{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#task_list{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 45px;
+    flex: 2;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+h4{
+    margin: 0px;
+    flex: 30;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    flex: 1;
+    margin-left: 45px;
+    margin-right: 0px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.toDoList{
+    flex: 3;
+    display: flex;
+}
+.showTask{
+    flex: 1;
+    margin-top: 40px;
+    margin-right: 25px  ;
+}
+.formHeader{
+    font-size: 23px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+.name_button{
+    display: flex;
+
+}
+.closebtn {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    font-size: 26px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    flex: 1;
+}
+
+.closebtn:hover {
+    color: rgb(0, 195, 255);
+}
+header{
+    display: flex;
+    padding-left: 45px;
+    border-bottom: solid 1px rgb(245,245,245);
+    margin-bottom: 25px;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.checkbox{
+    flex: 1;
+    
+}
+.paragrath{
+    flex: 25;
+}
+input[type=text] {
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+#descriptionInput{
+    padding-bottom: 50px;
+}
+.dateButton{
+    display: flex;
+}
+#dateInput{
+flex: 30;
+margin-top: 0px;
+margin-right: 0px;
+}
+#button{
+flex: 6;
+margin-right: 10px;
+background-color: rgb(103,46,227);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+width: 450px;
+height: 30px;
+font-size: 20px;
+font-weight: bold;
+}
