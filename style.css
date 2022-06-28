@@ -187,15 +187,7 @@ input[type=text] {
     h2{
         font-size: 30px;
     }
-}
-@media (max-width: 380px) {
-    body{
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-}
-@media (max-width: 325px) {
-    #dateInput{
+        #dateInput{
         flex: 1;
         width: 140px;
         }
@@ -203,3 +195,10 @@ input[type=text] {
         flex: 1;
         }
 }
+@media (max-width: 380px) {
+    body{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
