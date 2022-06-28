@@ -149,21 +149,6 @@ function checkHideClass(status) {
     return "done_task"
   }
   else{
-    ""
+    return " "
   }
 }
-/* 
-
-function renderTask(status) {
-  let task = document.getElementsByClassName('task')
-  for (let item of task){
-    let classes = item.classList
-  if (status.checked) {
-    classes.add('done_task')
-  }
-  else{
-    classes.remove('done_task')
-  }
-  }
-  }
- */
